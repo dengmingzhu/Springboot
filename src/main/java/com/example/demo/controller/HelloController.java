@@ -26,6 +26,7 @@ public class HelloController {
     }
 
     //    客户端携带cookie访问
+    @RequestMapping(value = "get/cookie",method=RequestMethod.GET)
     public String getWithCookie(HttpServletRequest request) {
         Cookie[] cookies = request.getCookies();
         if (Objects.isNull(cookies)) {
@@ -39,4 +40,5 @@ public class HelloController {
         }
         return "cookie访问";
     }
+
 }
