@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.City;
+import com.example.demo.entity.TCity;
 
 /**
  * @Author DengMingZhu
@@ -9,6 +9,6 @@ import com.example.demo.entity.City;
  */
 public interface CtiyService {
 
-    void inster(City city);
+    void inster(TCity tCity);
 
 }

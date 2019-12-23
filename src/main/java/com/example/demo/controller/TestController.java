@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.entity.Team;
 import com.example.demo.entity.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,6 +12,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+
+import static jdk.nashorn.tools.Shell.SUCCESS;
 
 /**
  * @Author DengMingZhu
@@ -42,4 +45,5 @@ public class TestController {
         System.out.println(user.toString());
         return user.toString()+"=================="+users;
     }
+
 }

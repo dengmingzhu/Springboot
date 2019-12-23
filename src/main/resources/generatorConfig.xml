@@ -32,7 +32,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table schema="t_city" tableName="City" enableCountByExample="false" enableDeleteByExample="false"
+        <table schema="sys_role_menu" tableName="sys_role_menu" enableCountByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" enableUpdateByExample="false"/>
     </context>
 </generatorConfiguration>
