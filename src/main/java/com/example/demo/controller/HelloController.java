@@ -38,6 +38,7 @@ public class HelloController {
                 return "访问成功";
             }
         }
+        System.out.println("测试");
         return "cookie访问";
     }
 
